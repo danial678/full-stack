@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #b4b8ce;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main container with flexbox layout */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Styling for the intro section */
+.intro {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #008080;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #0f172a;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+/* Styling for buttons */
+button {
+  background-color: #10b981;
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #059669; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+button:active {
+  background-color: #047a56; /* Even darker green on click */
+  transform: scale(0.98); /* Slightly shrink the button on click */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Styling for images */
+img {
+  width: 600px;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05); /* Slight zoom effect when image is hovered */
+}
+
+/* Styling for the Turtle Ranger Info section */
+#turtle-ranger-info {
+  padding: 60px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+#turtle-ranger-info h2 {
+  color: #008080;
+  margin-bottom: 20px;
+}
+
+#turtle-ranger-info ul {
+  margin-bottom: 20px;
+}
+
+#turtle-ranger-info ul li {
+  margin-bottom: 10px;
+}
+
+#turtle-ranger-info .gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#turtle-ranger-info .photo {
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+#turtle-ranger-info .photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#turtle-ranger-info .photo img:hover {
+  transform: scale(1.05); /* Slight zoom effect when image is hovered */
+}
+
+/* Make sure the page is responsive */
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  img {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  #turtle-ranger-info .gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #turtle-ranger-info .photo {
+    width: 80%;
+  }
+}
