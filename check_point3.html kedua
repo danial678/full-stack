@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turtle Ranger Info</title>
+  <link rel="stylesheet" href="tampilan.css" />
+</head>
+<body>
+
+  <!-- Bagian Utama -->
+  <div class="wrapper">
+    <div class="intro">
+      <h1><span class="highlight">Turtle Ranger</span> Conservation</h1>
+      <h2>Lindungi Penyu untuk Masa Depan</h2>
+      <p>
+        Kami adalah penjaga garis pantai Kalimantan Timur. Setiap malam, kami menyusuri pantai untuk
+        memastikan telur-telur penyu tetap aman dari predator dan manusia. Melalui edukasi, konservasi,
+        dan kerja komunitas, kami melindungi masa depan spesies langka ini.
+      </p>
+      <button onclick="window.open('https://www.wwf.or.id', '_blank')">Pelajari Lebih Lanjut</button>
+    </div>
+    <img src="derawan.jpg" alt="Penyu Derawan" />
+  </div>
+
+  <!-- Bagian Info dan Galeri -->
+  <section id="turtle-ranger-info">
+    <h2>Aktivitas Konservasi Kami</h2>
+    <ul>
+      <li>Patroli malam untuk menjaga sarang penyu dari predator.</li>
+      <li>Identifikasi dan dokumentasi spesies penyu.</li>
+      <li>Pelepasan tukik ke laut lepas.</li>
+      <li>Edukasi masyarakat lokal tentang pentingnya perlindungan penyu.</li>
+    </ul>
+
+    <div class="gallery">
+      <div class="photo">
+        <img src="derawan.jpg" alt="Penyu di Derawan" />
+        <p>Aktivitas patroli sarang penyu di Pulau Derawan.</p>
+      </div>
+      <div class="photo">
+        <img src="maratua.jpg" alt="Pantai Maratua" />
+        <p>Pengawasan predator dan pelepasan tukik di Maratua.</p>
+      </div>
+      <div class="photo">
+        <img src="kakaban..jpg" alt="Pulau Kakaban" />
+        <p>Dokumentasi migrasi penyu di sekitar Kakaban.</p>
+      </div>
+      <div class="photo">
+        <img src="sangalaki.jpg" alt="Pulau Sangalaki" />
+        <p>Pengawasan induk penyu bertelur di Sangalaki.</p>
+      </div>
+      <div class="photo">
+        <img src="patroli.jpg" alt="Ranger patroli" />
+        <p>Ranger sedang melakukan patroli malam hari.</p>
+      </div>
+      <div class="photo">
+        <img src="penyu_pantai _berau.jpg" alt="Penyu di pantai Berau" />
+        <p>Penyu bertelur di pantai Berau saat malam.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
