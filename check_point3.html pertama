@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danial Hirzan Akbary</title>
+  <link rel="stylesheet" href="tampilan.css" />
+</head>
+<body>
+  <main class="wrapper">
+    <section class="intro">
+      <h1>Hi there ✨</h1>
+      <h2>I'm <span class="highlight">Danial Hirzan Akbary</span></h2>
+      <p><em>Mahasiswa Sistem Informasi</em></p>
+      <p>Saya memiliki kecintaan terhadap dunia flora dan fauna mulai dari Seukuran Bakteri hingga Ultramen dan senang mempelajari keunikan ekosistem alam.</p>
+      <!-- Button dengan target "_blank" untuk membuka di tab baru -->
+      <a href="turtle-ranger-info.html" target="_blank">
+        <button>Let's Connect</button>
+      </a>
+      <section class="image">
+        <img src="foto.jpg" alt="santuy dan lanjutkan" />
+      </section>
+    </section>
+  </main>
+
+</body>
+</html>
